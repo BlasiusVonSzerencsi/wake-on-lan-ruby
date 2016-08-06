@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'Wake on LAN'
   spec.description   = <<-DESCRIPTION
-  WOL implementation in Ruby, for more info on Wake on LAN pleaes see:
+  WOL implementation in Ruby, for more info on Wake on LAN please see:
   https://en.wikipedia.org/wiki/Wake-on-LAN
   DESCRIPTION
   spec.homepage      = 'https://github.com/BlasiusVonSzerencsi/wake-on-lan-ruby'
