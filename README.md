@@ -1,8 +1,8 @@
 # WakeOnLan
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/wake_on_lan`. To experiment with that code, run `bin/console` for an interactive prompt.
+Send Wake on LAN magic packet to the broadcast address, to wake up the device with the specified MAC address.
 
-TODO: Delete this and the text above, and describe your gem
+For more info on WOL please see: https://en.wikipedia.org/wiki/Wake-on-LAN
 
 ## Installation
 
@@ -22,7 +22,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+WakeOnLan.wake 'AA:BB:CC:DD:EE:FF', '10.5.5.9', 9
+```
 
 ## Development
 
@@ -32,7 +34,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/wake_on_lan.
+Bug reports and pull requests are welcome on GitHub at https://github.com/BlasiusVonSzerencsi/wake-on-lan-ruby.
 
 
 ## License
