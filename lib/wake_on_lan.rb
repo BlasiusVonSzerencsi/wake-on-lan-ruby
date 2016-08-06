@@ -1,5 +1,7 @@
 require "wake_on_lan/version"
 
 module WakeOnLan
-  # Your code goes here...
+
+  autoload :MagicPacket, 'wake_on_lan/magic_packet'
+
 end
